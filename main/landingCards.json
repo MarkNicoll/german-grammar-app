@@ -1,0 +1,28 @@
+{
+  "cards": [
+    {
+      "title": "Food and Drink",
+      "icon": "food"
+    },
+    {
+      "title": "Household Items",
+      "icon": "lamp"
+    },
+    {
+      "title": "Workplace",
+      "icon": "briefcase"
+    },
+    {
+      "title": "Technology",
+      "icon": "laptop"
+    },
+    {
+      "title": "Social",
+      "icon": "beer"
+    },
+    {
+      "title": "All",
+      "icon": ""
+    }
+  ]
+}

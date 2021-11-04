@@ -1,0 +1,119 @@
+{
+  "verbs": [
+    {
+      "verb": "bieten",
+      "praeteritum": "bot",
+      "englishTranslation": "to offer"
+    },
+    {
+      "verb": "bleiben",
+      "praeteritum": "blieb",
+      "englishTranslation": "to stay"
+    },
+    {
+      "verb": "denken",
+      "praeteritum": "dachte",
+      "englishTranslation": "to think"
+    },
+    {
+      "verb": "empfehlen",
+      "praeteritum": "empfahl",
+      "englishTranslation": "to recommend"
+    },
+    {
+      "verb": "essen",
+      "praeteritum": "aß",
+      "englishTranslation": "to eat"
+    },
+    {
+      "verb": "finden",
+      "praeteritum": "fand",
+      "englishTranslation": "to find"
+    },
+    {
+      "verb": "geben",
+      "praeteritum": "gab",
+      "englishTranslation": "to give"
+    },
+    {
+      "verb": "gehen",
+      "praeteritum": "ging",
+      "englishTranslation": "to go"
+    },
+    {
+      "verb": "kennen",
+      "praeteritum": "kannte",
+      "englishTranslation": "to know"
+    },
+    {
+      "verb": "helfen",
+      "praeteritum": "half",
+      "englishTranslation": "to help"
+    },
+    {
+      "verb": "kommen",
+      "praeteritum": "kam",
+      "englishTranslation": "to come"
+    },
+    {
+      "verb": "helfen",
+      "praeteritum": "half",
+      "englishTranslation": "to help"
+    },
+    {
+      "verb": "laden",
+      "praeteritum": "lud",
+      "englishTranslation": "to load"
+    },
+    {
+      "verb": "lesen",
+      "praeteritum": "las",
+      "englishTranslation": "to read"
+    },
+    {
+      "verb": "nehmen",
+      "praeteritum": "nahm",
+      "englishTranslation": "to take"
+    },
+    {
+      "verb": "sehen",
+      "praeteritum": "sah",
+      "englishTranslation": "to see"
+    },
+    {
+      "verb": "treffen",
+      "praeteritum": "traf",
+      "englishTranslation": "to meet"
+    },
+    {
+      "verb": "stehen",
+      "praeteritum": "stand",
+      "englishTranslation": "to stand"
+    },
+    {
+      "verb": "wissen",
+      "praeteritum": "wusste",
+      "englishTranslation": "to know"
+    },
+    {
+      "verb": "vergessen",
+      "praeteritum": "vergaß",
+      "englishTranslation": "to forget"
+    },
+    {
+      "verb": "senden",
+      "praeteritum": "sandte",
+      "englishTranslation": "to send"
+    },
+    {
+      "verb": "sprechen",
+      "praeteritum": "sprach",
+      "englishTranslation": "to speak"
+    },
+    {
+      "verb": "liegen",
+      "praeteritum": "lag",
+      "englishTranslation": "to lie down"
+    }
+  ]
+}

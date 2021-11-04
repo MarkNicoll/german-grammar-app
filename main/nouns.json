@@ -1,0 +1,315 @@
+{
+  "nouns": {
+    "foodAndDrink": [
+      {
+        "word": "Kaffee",
+        "article": "Der",
+        "englishTranslation": "Coffee"
+      },
+      {
+        "word": "Bier",
+        "article": "Das",
+        "englishTranslation": "Beer"
+      },
+      {
+        "word": "Tee",
+        "article": "Der",
+        "englishTranslation": "Tea"
+      },
+      {
+        "word": "Wein",
+        "article": "Der",
+        "englishTranslation": "Wine"
+      },
+      {
+        "word": "Essen",
+        "article": "Das",
+        "englishTranslation": "Food"
+      },
+      {
+        "word": "Steak",
+        "article": "Das",
+        "englishTranslation": "Steak"
+      },
+      {
+        "word": "Schinken",
+        "article": "Der",
+        "englishTranslation": "Ham"
+      },
+      {
+        "word": "Wurst",
+        "article": "Die",
+        "englishTranslation": "Sausage"
+      },
+      {
+        "word": "Fisch",
+        "article": "Das",
+        "englishTranslation": "Fish"
+      },
+      {
+        "word": "Frucht",
+        "article": "Die",
+        "englishTranslation": "Fruit"
+      },
+      {
+        "word": "Orange",
+        "article": "Die",
+        "englishTranslation": "Orange"
+      },
+      {
+        "word": "Banane",
+        "article": "Die",
+        "englishTranslation": "Banana"
+      },
+      {
+        "word": "Traube",
+        "article": "Die",
+        "englishTranslation": "Grape"
+      },
+      {
+        "word": "Erdbeere",
+        "article": "Die",
+        "englishTranslation": "Strawberry"
+      },
+      {
+        "word": "Himbeere",
+        "article": "Die",
+        "englishTranslation": "Raspberry"
+      },
+      {
+        "word": "Tomate",
+        "article": "Die",
+        "englishTranslation": "Tomato"
+      },
+      {
+        "word": "Kartoffel",
+        "article": "Die",
+        "englishTranslation": "Potato"
+      },
+      {
+        "word": "Erbse",
+        "article": "Die",
+        "englishTranslation": "Peas"
+      },
+      {
+        "word": "Gemüse",
+        "article": "Das",
+        "englishTranslation": "Vegetables"
+      }
+    ],
+    "household": [
+      {
+        "word": "Sofa",
+        "article": "Das",
+        "englishTranslation": "Sofa"
+      },
+      {
+        "word": "Schrank",
+        "article": "Der",
+        "englishTranslation": "Wardrobe"
+      },
+      {
+        "word": "Fenster",
+        "article": "Das",
+        "englishTranslation": "Window"
+      },
+      {
+        "word": "Tisch",
+        "article": "Der",
+        "englishTranslation": "Table"
+      },
+      {
+        "word": "Bücherregal",
+        "article": "Das",
+        "englishTranslation": "Bookcase"
+      },
+      {
+        "word": "Fernseher",
+        "article": "Der",
+        "englishTranslation": "TV"
+      },
+      {
+        "word": "Besteck",
+        "article": "Das",
+        "englishTranslation": "Cutlery"
+      },
+      {
+        "word": "Teppich",
+        "article": "Der",
+        "englishTranslation": "Carpet"
+      },
+      {
+        "word": "Messer",
+        "article": "Das",
+        "englishTranslation": "Knife"
+      },
+      {
+        "word": "Pflanze",
+        "article": "Die",
+        "englishTranslation": "Plant"
+      },
+      {
+        "word": "Radiator",
+        "article": "Der",
+        "englishTranslation": "Radiator"
+      }
+    ],
+    "technology": [
+      {
+        "word": "Handy",
+        "article": "Das",
+        "englishTranslation": "Mobile phone"
+      },
+      {
+        "word": "Computer",
+        "article": "Der",
+        "englishTranslation": "Computer"
+      },
+      {
+        "word": "Maus",
+        "article": "Die",
+        "englishTranslation": "Mouse"
+      },
+      {
+        "word": "Tastatur",
+        "article": "Die",
+        "englishTranslation": "Computer keyboard"
+      },
+      {
+        "word": "Festplatte",
+        "article": "Die",
+        "englishTranslation": "Hard drive"
+      },
+      {
+        "word": "Bildschirm",
+        "article": "Der",
+        "englishTranslation": "Computer monitor"
+      },
+      {
+        "word": "Internet",
+        "article": "Das",
+        "englishTranslation": "Internet"
+      },
+      {
+        "Word": "Gerät",
+        "article": "Das",
+        "englishTranslation": "Device"
+      },
+      {
+        "Word": "Datei",
+        "article": "Die",
+        "englishTranslation": "File"
+      },
+      {
+        "Word": "Ordner",
+        "article": "Der",
+        "englishTranslation": "Folder"
+      },
+      {
+        "Word": "Rechner",
+        "article": "Der",
+        "englishTranslation": "Computer"
+      }
+    ],
+    "workplace": [
+      {
+        "word": "Büro",
+        "article": "Das",
+        "englishTranslation": "Office"
+      },
+      {
+        "word": "Vertrag",
+        "article": "Der",
+        "englishTranslation": "Contract"
+      },
+      {
+        "word": "Meeting",
+        "article": "Das",
+        "englishTranslation": "Meeting"
+      },
+      {
+        "word": "Arbeitsplatz",
+        "article": "Der",
+        "englishTranslation": "Workplace"
+      },
+      {
+        "word": "Vorstellungsgespräch",
+        "article": "Das",
+        "englishTranslation": "Job interview"
+      },
+      {
+        "word": "Stellenangebot",
+        "article": "Das",
+        "englishTranslation": "Job offer"
+      },
+      {
+        "word": "Beruf",
+        "article": "Der",
+        "englishTranslation": "Profession"
+      },
+      {
+        "word": "Job",
+        "article": "Der",
+        "englishTranslation": "Job"
+      },
+      {
+        "word": "Inserat",
+        "article": "Das",
+        "englishTranslation": "Job advert"
+      },
+      {
+        "word": "Kollege",
+        "article": "Der",
+        "englishTranslation": "Colleague"
+      },
+      {
+        "word": "Chefin",
+        "article": "Die",
+        "englishTranslation": "Boss"
+      }
+    ],
+    "social": [
+      {
+        "word": "Freund",
+        "article": "Der",
+        "englishTranslation": "Friend"
+      },
+      {
+        "word": "Cafe",
+        "article": "Das",
+        "englishTranslation": "Cafe"
+      },
+      {
+        "word": "Restaurant",
+        "article": "Das",
+        "englishTranslation": "Restaurent"
+      },
+      {
+        "word": "Party",
+        "article": "Die",
+        "englishTranslation": "Party"
+      },
+      {
+        "word": "Feier",
+        "article": "Die",
+        "englishTranslation": "Celebration"
+      },
+
+      {
+        "word": "Geburtstag",
+        "article": "Der",
+        "englishTranslation": "Birthday"
+      },
+      {
+        "word": "Geschenk",
+        "article": "Das",
+        "englishTranslation": "Gift"
+      },
+      {
+        "word": "Beziehung",
+        "article": "Die",
+        "englishTranslation": "Relationship"
+      }
+    ]
+  }
+}
