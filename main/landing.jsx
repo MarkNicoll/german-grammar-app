@@ -8,42 +8,56 @@ import {
   StyleSheet,
   Text,
   View,
+  Image
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import * as Animatable from "react-native-animatable";
 import navigationItems from "./landingCards.json";
+import { ImageResolver } from "./utils/imageResolver";
 
-function Landing({ navigation }: any) {
+function Landing({ navigation }) {
+  const imageResolver = new ImageResolver()
   const newState = {
     scrollIndex: 0,
   };
   const [state, setState] = useState(newState);
 
-  const onScrollEnd = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+  const onScrollEnd = (event) => {
     const newState = { ...state };
     newState.scrollIndex =
       event.nativeEvent.contentOffset.x / Dimensions.get("window").width;
     setState(newState);
   };
 
-  const onPressCard = (title: string) => {
+  const onPressCard = (title) => {
     navigation.navigate(title);
   };
 
-  const getCards = () => {
-    return navigationItems.cards.map((card) => {
+  // Throws error in Typescript file - wtf?
+  const getCategories = (card) => {
+    return card.map((category, index) => {
       return (
-        <View style={styles.cardRow} key={card.title}>
-          <Text style={styles.cardTitleStyle}>{card.title}</Text>
-          <Icon name={card.icon} style={styles.iconStyle} color="#cfd4d3" />
-          <Pressable
-            style={({ pressed }) =>
-              pressed ? styles.buttonContainerPressed : styles.buttonContainer
-            }
-            onPress={() => onPressCard(card.title)}
-          >
-            <Text style={styles.buttonTitleStyle}>Start</Text>
-          </Pressable>
+        <Pressable
+          key={index}
+          style={styles.singleCard}
+          onPress={() => onPressCard(category.title)}
+        >
+          <Text style={styles.cardText}>{category.title}</Text>
+      <Image
+      key={category.icon}
+        style={styles.iconStyle}
+        source={imageResolver.getImage(category.icon)}
+      />
+        </Pressable>
+      );
+    });
+  };
+
+  const getCards = () => {
+    return navigationItems.cards.map((card, index) => {
+      return (
+        <View style={styles.cardRow} key={index}>
+          {getCategories(card)}
         </View>
       );
     });
@@ -67,11 +81,12 @@ function Landing({ navigation }: any) {
   {
     return (
       <View style={styles.container}>
+        <View style={styles.backgroundOne}></View>
         <View style={styles.welcomeTextContainer}>
           <Text style={styles.welcomeText1}>Wilkommen.</Text>
           <Text style={styles.welcomeText2}>
-            Select a category to begin practicing noun articles. You can find
-            more categories by swiping left.
+            Please select a category to get started. Swipe left for more
+            categories.
           </Text>
         </View>
         <View style={styles.paginationDotContainer}>{getPagination()}</View>
@@ -91,8 +106,8 @@ function Landing({ navigation }: any) {
   }
 }
 
-const CARD_WIDTH = Dimensions.get("window").width * 0.8;
-const CARD_MARGIN = Dimensions.get("window").width * 0.1;
+const CARD_WIDTH = Dimensions.get("window").width * 0.9;
+const CARD_MARGIN = Dimensions.get("window").width * 0.05;
 
 const styles = StyleSheet.create({
   container: {
@@ -101,10 +116,12 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     paddingTop: "25%",
+    position: "relative",
   },
   buttonGroupContainer: {
     display: "flex",
     flexDirection: "column",
+    zIndex: 2,
   },
   button: {
     display: "flex",
@@ -120,17 +137,18 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
   welcomeTextContainer: {
-    borderRadius: 20,
+    borderRadius: 10,
     backgroundColor: "#47a68d",
-    height: "30%",
+    height: "15%",
     width: CARD_WIDTH,
     display: "flex",
     flexDirection: "column",
-    padding: 20,
+    padding: 10,
     fontFamily: "Nunito_400Regular",
+    zIndex: 2,
   },
   welcomeText1: {
-    fontSize: 35,
+    fontSize: 25,
     color: "white",
     fontFamily: "Nunito_400Regular",
   },
@@ -139,29 +157,28 @@ const styles = StyleSheet.create({
     color: "white",
     fontFamily: "Nunito_400Regular",
   },
-  iconStyle: {
-    fontSize: 160,
-    justifyContent: "center",
-    margin: "10%",
-  },
+ 
   cardRow: {
     width: CARD_WIDTH,
-    justifyContent: "center",
+    justifyContent: "space-evenly",
     alignItems: "center",
-    height: "50%",
+    alignContent: "center",
+    flexWrap: "wrap",
+    flexDirection: "row",
+    height: "60%",
     margin: CARD_MARGIN,
     backgroundColor: "white",
-    borderRadius: 15,
-    shadowColor: "grey",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    borderWidth: 2,
+    borderRadius: 10,
+    // shadowColor: "grey",
+    // shadowOffset: {
+    //   width: 0,
+    //   height: 2,
+    // },
+    // shadowOpacity: 0.25,
+    // shadowRadius: 3.84,
+    borderWidth: 1,
     borderColor: "#cfd4d3",
-    elevation: 4,
+    // elevation: 4,
   },
   buttonRowPressed: {
     width: CARD_WIDTH,
@@ -170,7 +187,7 @@ const styles = StyleSheet.create({
     height: "50%",
     margin: CARD_MARGIN,
     backgroundColor: "grey",
-    borderRadius: 15,
+    borderRadius: 10,
     shadowColor: "grey",
     shadowOffset: {
       width: 0,
@@ -178,7 +195,6 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
-    borderWidth: 2,
     borderColor: "#cfd4d3",
     elevation: 4,
   },
@@ -195,6 +211,8 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     marginTop: 20,
+    marginBottom: 10,
+
     backgroundColor: "#cfd4d3",
     borderRadius: 50,
   },
@@ -204,6 +222,7 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     marginTop: 20,
+    marginBottom: 10,
     backgroundColor: "grey",
     borderRadius: 50,
   },
@@ -219,23 +238,58 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     backgroundColor: "#47a68d",
   },
-  buttonContainerPressed: {
-    width: "90%",
-    height: 40,
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "center",
-    alignItems: "center",
-    textAlign: "center",
-    alignContent: "center",
+  categoryPressed: {
+    width: "40%",
+    height: "35%",
     borderRadius: 10,
-    backgroundColor: "#245448",
+    borderWidth: 1,
+    borderColor: "#cfd4d3",
+    display: "flex",
+    justifyContent: "center",
+    alignContent: "center",
+    alignItems: "center",
+    margin: "5%",
+    backgroundColor: "#cfd4d3",
   },
   buttonTitleStyle: {
     color: "white",
     fontFamily: "Nunito_400Regular",
     fontSize: 15,
   },
+  singleCard: {
+    width: "40%",
+    height: "35%",
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: "#cfd4d3",
+    display: "flex",
+    justifyContent: "center",
+    alignContent: "center",
+    alignItems: "center",
+    margin: "5%",
+  },
+  cardText:{
+    fontFamily: "Nunito_400Regular",
+    color: "grey"
+  },
+  iconStyle: {
+    width: 110,
+    height: 110,
+    justifyContent: "center", 
+    opacity: 0.7,
+    borderRadius: 10
+  },
+  //   backgroundOne: {
+  //     width: 900,
+  //     height: 800,
+  //     borderStyle: "solid",
+  //     borderRightWidth: 900,
+  //     borderTopWidth: 800,
+  //     borderRightColor: "transparent",
+  //     borderTopColor: "#f7f7f7",
+  //     position: "absolute",
+  //     zIndex: 1,
+  //   },
 });
 
 export default Landing;

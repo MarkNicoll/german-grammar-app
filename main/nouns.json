@@ -95,6 +95,21 @@
         "word": "Gemüse",
         "article": "Das",
         "englishTranslation": "Vegetables"
+      },
+      {
+        "word": "Nudeln",
+        "article": "Die",
+        "englishTranslation": "Noodle"
+      },
+      {
+        "word": "Suppe",
+        "article": "Die",
+        "englishTranslation": "Soup"
+      },
+      {
+        "word": "Milch",
+        "article": "Die",
+        "englishTranslation": "Milk"
       }
     ],
     "household": [
@@ -152,6 +167,41 @@
         "word": "Radiator",
         "article": "Der",
         "englishTranslation": "Radiator"
+      },
+      {
+        "word": "Geschirrspülmaschine",
+        "article": "Die",
+        "englishTranslation": "Dishwasher"
+      },
+      {
+        "word": "Staubsauger",
+        "article": "Der",
+        "englishTranslation": "Vacuum cleaner"
+      },
+      {
+        "word": "Fenster",
+        "article": "Das",
+        "englishTranslation": "Window"
+      },
+      {
+        "word": "Lampe",
+        "article": "Die",
+        "englishTranslation": "Lamp"
+      },
+      {
+        "word": "Bett",
+        "article": "Das",
+        "englishTranslation": "Bed"
+      },
+      {
+        "word": "Dusche",
+        "article": "Die",
+        "englishTranslation": "Shower"
+      },
+      {
+        "word": "Toilette",
+        "article": "Die",
+        "englishTranslation": "Toilet"
       }
     ],
     "technology": [
@@ -209,6 +259,21 @@
         "Word": "Rechner",
         "article": "Der",
         "englishTranslation": "Computer"
+      },
+      {
+        "word": "Drucker",
+        "article": "Der",
+        "englishTranslation": "Printer"
+      },
+      {
+        "word": "Spielekonsole",
+        "article": "Die",
+        "englishTranslation": "Game console"
+      },
+      {
+        "word": "Laptop",
+        "article": "Der",
+        "englishTranslation": "Laptop"
       }
     ],
     "workplace": [
@@ -263,9 +328,24 @@
         "englishTranslation": "Colleague"
       },
       {
+        "word": "Kollegin",
+        "article": "Die",
+        "englishTranslation": "Colleague"
+      },
+      {
         "word": "Chefin",
         "article": "Die",
         "englishTranslation": "Boss"
+      },
+      {
+        "word": "Chef",
+        "article": "Der",
+        "englishTranslation": "Boss"
+      },
+      {
+        "word": "Betriebsrat",
+        "article": "Der",
+        "englishTranslation": "Workers coucnil"
       }
     ],
     "social": [
@@ -294,7 +374,6 @@
         "article": "Die",
         "englishTranslation": "Celebration"
       },
-
       {
         "word": "Geburtstag",
         "article": "Der",
@@ -309,7 +388,100 @@
         "word": "Beziehung",
         "article": "Die",
         "englishTranslation": "Relationship"
+      },
+      {
+        "word": "Freundschaft",
+        "article": "Die",
+        "englishTranslation": "Friendship"
       }
+    ],
+    "sport": [
+      {
+        "word": "Fußball",
+        "article": "Der",
+        "englishTranslation": "Football"
+      },
+      {
+        "word": "Tennis",
+        "article": "Das",
+        "englishTranslation": "Tennis"
+      },
+      {
+        "word": "Fitnessstudio",
+        "article": "Das",
+        "englishTranslation": "Gym"
+      },
+      {
+        "word": "Athlet",
+        "article": "Der",
+        "englishTranslation": "Athlete"
+      },
+      {
+        "word": "Marathon",
+        "article": "Der",
+        "englishTranslation": "Marathon"
+      },
+      {
+        "word": "Skigebiet",
+        "article": "Das",
+        "englishTranslation": "Ski resort"
+      }
+    ],
+    "geography": [
+      {
+        "word": "Wetter",
+        "article": "Das",
+        "englishTranslation": "Weather"
+      },
+      {
+        "word": "Meer",
+        "article": "Das",
+        "englishTranslation": "Sea"
+      },
+      {
+        "word": "See",
+        "article": "Das",
+        "englishTranslation": "Lake"
+      },
+      {
+        "word": "Berg",
+        "article": "Der",
+        "englishTranslation": "Mountain"
+      },
+      {
+        "word": "Sonne",
+        "article": "Die",
+        "englishTranslation": "Sun"
+      },
+      {
+        "word": "Umwelt",
+        "article": "Die",
+        "englishTranslation": "Environment"
+      },
+      {
+        "word": "Regen",
+        "article": "Der",
+        "englishTranslation": "Rain"
+      },
+      {
+        "word": "Welt",
+        "article": "Die",
+        "englishTranslation": "World"
+      },
+      {
+        "word": "Grenze",
+        "article": "Die",
+        "englishTranslation": "Border"
+      },
+      {
+        "word": "Reisepass",
+        "article": "Der",
+        "englishTranslation": "Passport"
+      }
+
+
+
+      
     ]
   }
 }

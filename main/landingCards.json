@@ -1,28 +1,51 @@
 {
   "cards": [
-    {
-      "title": "Food and Drink",
-      "icon": "food"
-    },
-    {
-      "title": "Household Items",
-      "icon": "lamp"
-    },
-    {
-      "title": "Workplace",
-      "icon": "briefcase"
-    },
-    {
-      "title": "Technology",
-      "icon": "laptop"
-    },
-    {
-      "title": "Social",
-      "icon": "beer"
-    },
-    {
-      "title": "All",
-      "icon": ""
-    }
+    [
+      {
+        "title": "Food and Drink",
+        "icon": "Food-and-Drink"
+      },
+      {
+        "title": "Household",
+        "icon": "Household"
+      },
+
+      {
+        "title": "Geography",
+        "icon": "Geography"
+      },
+      {
+        "title": "Technology",
+        "icon": "Technology"
+      }
+    ],
+    [
+      {
+        "title": "Social",
+        "icon": "Social"
+      },
+      {
+        "title": "Culture",
+        "icon": "Culture"
+      },
+      {
+        "title": "Sport",
+        "icon": "Sport"
+      },
+      {
+        "title": "All",
+        "icon": "All"
+      }
+    ],
+    [
+      {
+        "title": "Workplace",
+        "icon": "Workplace"
+      },
+      {
+        "title": "Culture",
+        "icon": "Culutre"
+      }
+    ]
   ]
 }

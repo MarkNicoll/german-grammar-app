@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "learn-german-app",
-    "slug": "learn-german-app",
+    "name": "Das German Article Buddy",
+    "slug": "german-article-buddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,9 +13,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },

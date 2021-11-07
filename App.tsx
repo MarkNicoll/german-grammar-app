@@ -4,7 +4,7 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import Landing from "./main/landing";
-import ArticlePractice from "./main/article-practice/article-practice";
+import ArticlePractice from "./main/article-practice/articlePractice";
 import wordList from "./main/nouns.json";
 import { useFonts, Nunito_400Regular } from "@expo-google-fonts/nunito";
 
