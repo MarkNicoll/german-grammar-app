@@ -12,8 +12,8 @@ import {
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import * as Animatable from "react-native-animatable";
-import navigationItems from "./landingCards.json";
-import { ImageResolver } from "./utils/imageResolver";
+import navigationItems from "../../landingCards.json";
+import { ImageResolver } from "../../utils/imageResolver";
 
 function Landing({ navigation }) {
   const imageResolver = new ImageResolver()

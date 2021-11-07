@@ -4,12 +4,12 @@ import { Button, Icon } from "react-native-elements";
 import * as Animatable from "react-native-animatable";
 import * as Speech from "expo-speech";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { NominativArticles } from "../enums/articleEnum";
+import { NominativArticles } from "../../enums/articleEnum";
 import { ScrollView, State } from "react-native-gesture-handler";
-import Utils from "../utils/utilFunctions";
+import Utils from "../../utils/utilFunctions";
 import { GenderHelpModal } from "./gender-help-modal/genderHelpModal";
 import { ArticleButtons } from "./article-buttons/articleButtons";
-import { GrammaticCase as GrammaticCases } from "../enums/caseEnum";
+import { GrammaticCase as GrammaticCases } from "../../enums/caseEnum";
 
 function ArticlePractice(props: { wordList: Word[] }) {
   const wordList = props.wordList;

@@ -3,8 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import Landing from "./main/landing";
-import ArticlePractice from "./main/article-practice/articlePractice";
+import Landing from "./main/pages/landing-page/landing";
+import ArticlePractice from "./main/pages/article-practice/articlePractice";
 import wordList from "./main/nouns.json";
 import { useFonts, Nunito_400Regular } from "@expo-google-fonts/nunito";
 
@@ -137,10 +137,7 @@ export default function App() {
               name="Social"
             >
               {(props) => (
-                <ArticlePractice
-                  {...props}
-                  wordList={wordList.nouns.social}
-                />
+                <ArticlePractice {...props} wordList={wordList.nouns.social} />
               )}
             </Stack.Screen>
           </Stack.Navigator>

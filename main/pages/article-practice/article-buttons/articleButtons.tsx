@@ -5,10 +5,9 @@ import {
   AkkusativArticles,
   DativArticles,
   NominativArticles,
-} from "../../enums/articleEnum";
-import { GrammaticCase } from "../../enums/caseEnum";
-import { Gender } from "../../enums/genderEnum";
-import Utils from "../../utils/utilFunctions";
+} from "../../../enums/articleEnum";
+import { GrammaticCase } from "../../../enums/caseEnum";
+import Utils from "../../../utils/utilFunctions";
 import { buttonStyles } from "./articleButtonsStyles";
 
 type Props = {

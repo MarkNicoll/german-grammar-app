@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Pressable, Text, View } from "react-native";
-import { NominativArticles } from "../../enums/articleEnum";
+import { NominativArticles } from "../../../enums/articleEnum";
 import { ScrollView } from "react-native-gesture-handler";
 import { modalStyles } from "./modalStyles";
 
