@@ -425,6 +425,41 @@
         "word": "Skigebiet",
         "article": "Das",
         "englishTranslation": "Ski resort"
+      },
+      {
+        "word": "Tor",
+        "article": "Das",
+        "englishTranslation": "Goal (football)"
+      },
+      {
+        "word": "Sieg",
+        "article": "Der",
+        "englishTranslation": "Win"
+      },
+      {
+        "word": "Niederlage",
+        "article": "Die",
+        "englishTranslation": "Defeat"
+      },
+      {
+        "word": "Verlierer",
+        "article": "Die",
+        "englishTranslation": "Defeat"
+      },
+      {
+        "word": "Gewinnerin",
+        "article": "Die",
+        "englishTranslation": "Winner"
+      },
+      {
+        "word": "Sport",
+        "article": "Der",
+        "englishTranslation": "Sport"
+      },
+      {
+        "word": "Fitness",
+        "article": "Die",
+        "englishTranslation": "Fitness"
       }
     ],
     "geography": [
@@ -477,11 +512,65 @@
         "word": "Reisepass",
         "article": "Der",
         "englishTranslation": "Passport"
-      }
-
-
-
-      
-    ]
+      } 
+    ],
+  "culture" : [
+    {
+      "word": "Kultur",
+      "article": "Die",
+      "englishTranslation": "Culture"
+    },
+    {
+      "word": "Film",
+      "article": "Der",
+      "englishTranslation": "Film"
+    },
+    {
+      "word": "Schauspieler",
+      "article": "Der",
+      "englishTranslation": "Actor"
+    },
+    {
+      "word": "Musik",
+      "article": "Die",
+      "englishTranslation": "Music"
+    },
+    {
+      "word": "Schauspieler",
+      "article": "Der",
+      "englishTranslation": "Actor"
+    },
+    {
+      "word": "Musiker",
+      "article": "Der",
+      "englishTranslation": "Musician"
+    },
+    {
+      "word": "Musikerin",
+      "article": "Die",
+      "englishTranslation": "Musician"
+    },
+    {
+      "word": "Gitarre",
+      "article": "Die",
+      "englishTranslation": "Guitar"
+    },
+    {
+      "word": "Gemälde",
+      "article": "Das",
+      "englishTranslation": "Painting"
+    },
+    {
+      "word": "Künstler",
+      "article": "Der",
+      "englishTranslation": "Artist"
+    },
+    {
+      "word": "Kunst",
+      "article": "Das",
+      "englishTranslation": "Art"
+    },
+    
+  ]
   }
 }
